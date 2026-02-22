@@ -1,75 +1,38 @@
-# Nuxt Minimal Starter
+# いのちだいじ - Phase0 (MVP)
 
-Look at the [Nuxt documentation](https://nuxt.com/docs/getting-started/introduction) to learn more.
+続く記録を最優先とした愛犬健康ログアプリ
 
-## Setup
+---
 
-Make sure to install dependencies:
+## プロジェクト目的
+
+本プロジェクトは「完璧な健康管理」ではなく
+**忙しい飼い主でも続く記録体験の設計検証**を目的とする。
+
+---
+
+## Phase0（MVP）機能
+
+- 愛犬プロフィール登録（最小構成）
+- 日次ログCRUD（体重・メモ・写真）
+- 履歴一覧表示
+- 体重推移グラフ（直近7日）
+
+---
+
+## 技術スタック
+
+- Nuxt 4
+- TypeScript
+- IndexedDB（端末内保存）
+- Chart.js（体重グラフ）
+
+詳細設計は `ARCHITECTURE.md` を参照。
+
+---
+
+## 開発環境
 
 ```bash
-# npm
 npm install
-
-# pnpm
-pnpm install
-
-# yarn
-yarn install
-
-# bun
-bun install
-```
-
-## Development Server
-
-Start the development server on `http://localhost:3000`:
-
-```bash
-# npm
 npm run dev
-
-# pnpm
-pnpm dev
-
-# yarn
-yarn dev
-
-# bun
-bun run dev
-```
-
-## Production
-
-Build the application for production:
-
-```bash
-# npm
-npm run build
-
-# pnpm
-pnpm build
-
-# yarn
-yarn build
-
-# bun
-bun run build
-```
-
-Locally preview production build:
-
-```bash
-# npm
-npm run preview
-
-# pnpm
-pnpm preview
-
-# yarn
-yarn preview
-
-# bun
-bun run preview
-```
-
-Check out the [deployment documentation](https://nuxt.com/docs/getting-started/deployment) for more information.
